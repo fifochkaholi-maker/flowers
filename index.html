@@ -133,72 +133,13 @@
         }
 
         @keyframes imageGlitch {
-            0% { 
-                opacity: 1;
-                transform: translate(0, 0) scale(1);
-                filter: none;
-                clip-path: inset(0 0 0 0);
-            }
-            10% { 
-                opacity: 0.8;
-                transform: translate(-5px, 3px) scale(1.02);
-                filter: hue-rotate(90deg) contrast(1.5);
-                clip-path: inset(10% 0 80% 0);
-            }
-            20% { 
-                opacity: 0.6;
-                transform: translate(5px, -3px) scale(0.98);
-                filter: invert(1) blur(1px);
-                clip-path: inset(80% 0 10% 0);
-            }
-            30% { 
-                opacity: 0.9;
-                transform: translate(3px, 5px) skewX(-5deg);
-                filter: hue-rotate(180deg);
-                clip-path: inset(0 0 0 0);
-            }
-            40% { 
-                opacity: 0.7;
-                transform: translate(-3px, -5px) scale(1.05);
-                filter: contrast(2) saturate(3);
-                clip-path: inset(50% 0 50% 0);
-            }
-            50% { 
-                opacity: 1;
-                transform: translate(0, 0) scale(1);
-                filter: none;
-                clip-path: inset(0 0 0 0);
-            }
-            60% { 
-                opacity: 0.5;
-                transform: translate(8px, -8px) rotate(2deg);
-                filter: invert(0.5) blur(2px);
-                clip-path: inset(30% 0 60% 0);
-            }
-            70% { 
-                opacity: 0.8;
-                transform: translate(-8px, 8px) skewX(5deg);
-                filter: hue-rotate(270deg) contrast(1.8);
-                clip-path: inset(60% 0 30% 0);
-            }
-            80% { 
-                opacity: 0.6;
-                transform: translate(5px, 5px) scale(0.95);
-                filter: invert(1);
-                clip-path: inset(0 0 0 0);
-            }
-            90% { 
-                opacity: 0.9;
-                transform: translate(-5px, -5px) skewX(-3deg);
-                filter: contrast(1.5) saturate(2);
-                clip-path: inset(40% 0 40% 0);
-            }
-            100% { 
-                opacity: 1;
-                transform: translate(0, 0) scale(1);
-                filter: none;
-                clip-path: inset(0 0 0 0);
-            }
+            0% { opacity: 1; transform: translate(0, 0) scale(1); filter: none; clip-path: inset(0 0 0 0); }
+            10% { opacity: 0.8; transform: translate(-5px, 3px) scale(1.02); filter: hue-rotate(90deg) contrast(1.5); clip-path: inset(10% 0 80% 0); }
+            20% { opacity: 0.6; transform: translate(5px, -3px) scale(0.98); filter: invert(1) blur(1px); clip-path: inset(80% 0 10% 0); }
+            30% { opacity: 0.9; transform: translate(3px, 5px) skewX(-5deg); filter: hue-rotate(180deg); clip-path: inset(0 0 0 0); }
+            50% { opacity: 1; transform: translate(0, 0) scale(1); filter: none; clip-path: inset(0 0 0 0); }
+            70% { opacity: 0.8; transform: translate(-8px, 8px) skewX(5deg); filter: hue-rotate(270deg) contrast(1.8); clip-path: inset(60% 0 30% 0); }
+            100% { opacity: 1; transform: translate(0, 0) scale(1); filter: none; clip-path: inset(0 0 0 0); }
         }
 
         #lyrics-overlay {
@@ -218,94 +159,29 @@
         }
 
         @keyframes textGlitch2 {
-            0% { 
-                text-shadow: 4px 0 red, -4px 0 purple; 
-                color: white; 
-                transform: translate(-50%, -50%) skewX(0deg) scale(1);
-                opacity: 1;
-                filter: none;
-            }
-            10% { 
-                text-shadow: -4px 0 black, 4px 0 white; 
-                color: red; 
-                transform: translate(-48%, -52%) skewX(-10deg) scale(1.2);
-                filter: blur(2px);
-            }
-            20% { 
-                text-shadow: 4px 0 purple, -4px 0 black; 
-                color: white; 
-                transform: translate(-52%, -48%) skewX(10deg) scale(0.9);
-                filter: invert(1);
-            }
-            30% { 
-                text-shadow: -4px 0 red, 4px 0 purple; 
-                color: black; 
-                transform: translate(-50%, -50%) skewX(0deg) scale(1.5);
-                opacity: 0.5;
-            }
-            40% { 
-                text-shadow: 4px 0 white, -4px 0 red; 
-                color: purple; 
-                transform: translate(-50%, -50%) rotate(5deg) scale(1.1);
-                filter: blur(0px);
-            }
-            50% { 
-                text-shadow: -4px 0 black, 4px 0 white; 
-                color: red; 
-                transform: translate(-50%, -50%) rotate(-5deg) scale(0.8);
-                opacity: 1;
-            }
-            60% { 
-                text-shadow: 4px 0 blue, -4px 0 green; 
-                color: white; 
-                transform: translate(-50%, -50%) skewX(20deg);
-                filter: invert(0);
-            }
-            70% { 
-                text-shadow: -4px 0 red, 4px 0 purple; 
-                color: black; 
-                transform: translate(-55%, -45%) scale(1.3);
-                opacity: 0.8;
-            }
-            80% { 
-                text-shadow: 4px 0 white, -4px 0 red; 
-                color: purple; 
-                transform: translate(-45%, -55%) scale(0.7);
-            }
-            90% { 
-                text-shadow: -4px 0 black, 4px 0 white; 
-                color: red; 
-                transform: translate(-50%, -50%) skewX(-15deg) scale(1.1);
-                filter: blur(1px);
-            }
-            100% { 
-                text-shadow: 4px 0 red, -4px 0 purple; 
-                color: white; 
-                transform: translate(-50%, -50%) skewX(0deg) scale(1);
-                opacity: 1;
-            }
+            0% { text-shadow: 4px 0 red, -4px 0 purple; color: white; transform: translate(-50%, -50%) skewX(0deg) scale(1); opacity: 1; }
+            20% { text-shadow: 4px 0 purple, -4px 0 black; color: white; transform: translate(-52%, -48%) skewX(10deg) scale(0.9); filter: invert(1); }
+            40% { text-shadow: 4px 0 white, -4px 0 red; color: purple; transform: translate(-50%, -50%) rotate(5deg) scale(1.1); }
+            60% { text-shadow: 4px 0 blue, -4px 0 green; color: white; transform: translate(-50%, -50%) skewX(20deg); }
+            90% { text-shadow: -4px 0 black, 4px 0 white; color: red; transform: translate(-50%, -50%) skewX(-15deg) scale(1.1); }
         }
 
     </style>
 </head>
 <body>
 
-    <!-- Аудио -->
     <audio id="bg-music" loop>
         <source src="music.mp3" type="audio/mpeg">
     </audio>
 
-    <!-- ЭТАП 1 -->
     <div id="stage-1">
         <div id="disconnect-btn">отключиться</div>
     </div>
 
-    <!-- ЭТАП 2 -->
     <div id="stage-2">
         <div id="typewriter-text"></div>
     </div>
 
-    <!-- ЭТАП 3 -->
     <div id="stage-3">
         <a href="https://t.me/whynuk" id="telegram-link-container">
             <img id="slideshow-img" src="" alt="">
@@ -314,15 +190,8 @@
     </div>
 
     <script>
-        // ============================================
-        // ⚙️ НАСТРОЙКИ - МЕНЯТЬ ЗДЕСЬ СВОИ ДАННЫЕ ⚙️
-        // ============================================
-        
-        // Ссылка на твой телеграм канал
+        // --- НАСТРОЙКИ ---
         const TELEGRAM_URL = "https://t.me/whynuk";
-        
-        // Твои фотографии (6 штук)
-        // Вариант 1: Если фото в папке images (рекомендуется)
         const IMAGES = [
             "images/photo1.jpg",
             "images/photo2.jpg",
@@ -331,16 +200,7 @@
             "images/photo5.jpg",
             "images/photo6.jpg"
         ];
-        
-        // Вариант 2: Если хочешь использовать ссылки из интернета
-        // Просто замени пути выше на URL, например:
-        // "https://example.com/my-photo.jpg"
-        
-        // Надписи из песни (можно менять)
         const LYRICS = ["fleece", "run away", "don't look back", "it's inside", "dreaming"];
-        
-        // ============================================
-
         const PHRASES = [
             "кто внутри?", "зачем он здесь?", "кто нас создал?", 
             "избранные прокляты", "создатель мерт", "последний дни в церкви"
@@ -357,10 +217,9 @@
         const lyricsElement = document.getElementById('lyrics-overlay');
         const telegramLink = document.getElementById('telegram-link-container');
 
-        // Установка ссылки на телеграм
         telegramLink.href = TELEGRAM_URL;
 
-        // 1. Генерация фраз на фоне
+        // 1. Генерация фоновых фраз
         PHRASES.forEach(text => {
             const el = document.createElement('div');
             el.classList.add('chaos-text');
@@ -372,7 +231,7 @@
             stage1.appendChild(el);
         });
 
-        // 2. Хаотичное движение кнопки (замедленное)
+        // 2. Движение кнопки
         function moveButton() {
             const x = Math.random() * (window.innerWidth - 150);
             const y = Math.random() * (window.innerHeight - 50);
@@ -382,9 +241,14 @@
         }
         moveButton();
 
-        // 3. Обработка клика по кнопке
+        // 3. КЛИК ПО КНОПКЕ - МУЗЫКА ИГРАЕТ СРАЗУ
         btn.addEventListener('click', (e) => {
             e.stopPropagation(); 
+            
+            // ЗАПУСК МУЗЫКИ МГНОВЕННО
+            music.volume = 0.5;
+            music.play().catch(err => console.log("Нужен клик для звука: ", err));
+
             stage1.style.transition = 'opacity 2s';
             stage1.style.opacity = '0';
             setTimeout(() => {
@@ -408,33 +272,24 @@
             }, 150); 
         }
 
-        // 5. Запуск финальной сцены с глитчем на фото
+        // 5. Финальная сцена
         function startStage3() {
             stage2.style.display = 'none';
             stage3.style.display = 'block';
             
-            music.volume = 0.5;
-            music.play().catch(e => console.log("Audio play failed: ", e));
-
             let imgIndex = 0;
-            
             function changeImage() {
                 imgElement.classList.remove('active');
-                
                 setTimeout(() => {
                     imgElement.src = IMAGES[imgIndex];
                     imgElement.classList.add('active');
-                    
                     lyricsElement.innerText = LYRICS[Math.floor(Math.random() * LYRICS.length)];
-                    
                     imgIndex = (imgIndex + 1) % IMAGES.length;
                 }, 300); 
             }
-
             changeImage(); 
             setInterval(changeImage, 1500); 
         }
-
     </script>
 </body>
 </html>
